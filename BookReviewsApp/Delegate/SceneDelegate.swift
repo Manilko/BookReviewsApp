@@ -23,6 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         //  MARK: - RealmManager
         RealmManager.shared.configureRealm()
+        
+        //  MARK: - NetworkMonitor
+        NetworkMonitor.shared.startMonitoring()
 
         // MARK: - Coordinator
         appCoordinator = AppCoordinator(window: appWindow)

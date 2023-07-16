@@ -16,7 +16,6 @@
 		15A02EC02A5BAD2D00E285CB /* ViewSeparatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02EBF2A5BAD2D00E285CB /* ViewSeparatable.swift */; };
 		15A02EC32A5BAD6A00E285CB /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02EC22A5BAD6A00E285CB /* CategoryCell.swift */; };
 		15A02EC52A5BAD8300E285CB /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02EC42A5BAD8300E285CB /* BookCell.swift */; };
-		15A02EC82A5BADC100E285CB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02EC72A5BADC100E285CB /* Models.swift */; };
 		15A02ECA2A5BADE800E285CB /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02EC92A5BADE800E285CB /* SectionModel.swift */; };
 		15A02ECD2A5BAE2A00E285CB /* CategoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02ECC2A5BAE2A00E285CB /* CategoryCoordinator.swift */; };
 		15A02ECF2A5BAE4200E285CB /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02ECE2A5BAE4200E285CB /* CategoryController.swift */; };
@@ -44,6 +43,8 @@
 		15A02F022A5BB8CB00E285CB /* String + localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A02F012A5BB8CB00E285CB /* String + localized.swift */; };
 		A9D36EA6BA8F629C1671B0D1 /* Pods_BookReviewsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD5DD7D0FB07FE297A05410C /* Pods_BookReviewsApp.framework */; };
 		BBA372250506F5FDACA326DF /* Pods_BookReviewsAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B16D48B436AB1BAAC519978 /* Pods_BookReviewsAppTests.framework */; };
+		CE81DDEB2A61DA9300AFBFC0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DDEA2A61DA9300AFBFC0 /* Category.swift */; };
+		CE81DDED2A61DB2D00AFBFC0 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE81DDEC2A61DB2D00AFBFC0 /* Book.swift */; };
 		E1454E13F5C74999D37198F3 /* Pods_BookReviewsApp_BookReviewsAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DB139F37CF0FDB6DB52B6C /* Pods_BookReviewsApp_BookReviewsAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +81,6 @@
 		15A02EBF2A5BAD2D00E285CB /* ViewSeparatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSeparatable.swift; sourceTree = "<group>"; };
 		15A02EC22A5BAD6A00E285CB /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		15A02EC42A5BAD8300E285CB /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
-		15A02EC72A5BADC100E285CB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		15A02EC92A5BADE800E285CB /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		15A02ECC2A5BAE2A00E285CB /* CategoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCoordinator.swift; sourceTree = "<group>"; };
 		15A02ECE2A5BAE4200E285CB /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
@@ -111,6 +111,8 @@
 		4B16D48B436AB1BAAC519978 /* Pods_BookReviewsAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookReviewsAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DB139F37CF0FDB6DB52B6C /* Pods_BookReviewsApp_BookReviewsAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookReviewsApp_BookReviewsAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B999A2CB19D9BE12D060818F /* Pods-BookReviewsApp-BookReviewsAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsApp-BookReviewsAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BookReviewsApp-BookReviewsAppUITests/Pods-BookReviewsApp-BookReviewsAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE81DDEA2A61DA9300AFBFC0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CE81DDEC2A61DB2D00AFBFC0 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		F1FDC7B1EEE0D50E46F32950 /* Pods-BookReviewsApp-BookReviewsAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookReviewsApp-BookReviewsAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BookReviewsApp-BookReviewsAppUITests/Pods-BookReviewsApp-BookReviewsAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD5DD7D0FB07FE297A05410C /* Pods_BookReviewsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookReviewsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,13 +174,10 @@
 				15A02EBE2A5BACF300E285CB /* Protocol */,
 				15A02EC12A5BAD4600E285CB /* Cell */,
 				15A02EC62A5BADA900E285CB /* Models */,
-				15A02ECB2A5BAE1A00E285CB /* CategoryScreen */,
-				15A02ED42A5BAE9C00E285CB /* BookScreen */,
-				15A02EDD2A5BAF1E00E285CB /* WebViewScreen */,
+				CE81DDEE2A6488A600AFBFC0 /* Flow */,
+				15A02EF12A5BB11400E285CB /* Coordinator */,
 				15A02EE62A5BAFBD00E285CB /* Utils */,
 				15A02E962A5BAC1A00E285CB /* Assets.xcassets */,
-				15A02EE92A5BB06000E285CB /* BaseViewController.swift */,
-				15A02EF12A5BB11400E285CB /* Coordinator */,
 				15A02E9B2A5BAC1A00E285CB /* Info.plist */,
 			);
 			path = BookReviewsApp;
@@ -231,7 +230,8 @@
 		15A02EC62A5BADA900E285CB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				15A02EC72A5BADC100E285CB /* Models.swift */,
+				CE81DDEA2A61DA9300AFBFC0 /* Category.swift */,
+				CE81DDEC2A61DB2D00AFBFC0 /* Book.swift */,
 				15A02EC92A5BADE800E285CB /* SectionModel.swift */,
 			);
 			path = Models;
@@ -272,10 +272,10 @@
 		15A02EE62A5BAFBD00E285CB /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				15A02EFC2A5BB6E300E285CB /* logger */,
 				15A02EE72A5BB00B00E285CB /* Netvorking.swift */,
 				15A02EEB2A5BB07D00E285CB /* RealmManager.swift */,
 				15A02EED2A5BB09000E285CB /* NetworkMonitor.swift */,
-				15A02EFC2A5BB6E300E285CB /* logger */,
 				15A02EEF2A5BB0F200E285CB /* AppConstraint.swift */,
 			);
 			path = Utils;
@@ -310,6 +310,17 @@
 				4B16D48B436AB1BAAC519978 /* Pods_BookReviewsAppTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE81DDEE2A6488A600AFBFC0 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				15A02EE92A5BB06000E285CB /* BaseViewController.swift */,
+				15A02ECB2A5BAE1A00E285CB /* CategoryScreen */,
+				15A02ED42A5BAE9C00E285CB /* BookScreen */,
+				15A02EDD2A5BAF1E00E285CB /* WebViewScreen */,
+			);
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		DA80B852C748789C8563393F /* Pods */ = {
@@ -564,17 +575,18 @@
 			files = (
 				15A02EDF2A5BAF2F00E285CB /* WebViewCoordinator.swift in Sources */,
 				15A02E8E2A5BAC1200E285CB /* AppDelegate.swift in Sources */,
-				15A02EC82A5BADC100E285CB /* Models.swift in Sources */,
 				15A02ED12A5BAE6000E285CB /* CategoryViewModel.swift in Sources */,
 				15A02EE82A5BB00B00E285CB /* Netvorking.swift in Sources */,
 				15A02EEC2A5BB07D00E285CB /* RealmManager.swift in Sources */,
 				15A02F022A5BB8CB00E285CB /* String + localized.swift in Sources */,
+				CE81DDEB2A61DA9300AFBFC0 /* Category.swift in Sources */,
 				15A02EEA2A5BB06000E285CB /* BaseViewController.swift in Sources */,
 				15A02EDA2A5BAEED00E285CB /* BookCoordinator.swift in Sources */,
 				15A02EF02A5BB0F200E285CB /* AppConstraint.swift in Sources */,
 				15A02ECA2A5BADE800E285CB /* SectionModel.swift in Sources */,
 				15A02EC02A5BAD2D00E285CB /* ViewSeparatable.swift in Sources */,
 				15A02ED62A5BAEB600E285CB /* BookViewModel.swift in Sources */,
+				CE81DDED2A61DB2D00AFBFC0 /* Book.swift in Sources */,
 				15A02EF72A5BB15500E285CB /* Router.swift in Sources */,
 				15A02EF32A5BB12900E285CB /* AppCoordinator.swift in Sources */,
 				15A02EEE2A5BB09000E285CB /* NetworkMonitor.swift in Sources */,
@@ -751,12 +763,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FZ6255LLW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookReviewsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -778,12 +792,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FZ6255LLW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BookReviewsApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

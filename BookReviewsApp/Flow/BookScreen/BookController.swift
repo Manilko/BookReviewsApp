@@ -19,7 +19,7 @@ final class BookController: BaseViewController {
     // MARK: - Lifecycle
     init(viewModel: BookViewModel) {
         self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
+        super.init()
     }
 
     deinit {

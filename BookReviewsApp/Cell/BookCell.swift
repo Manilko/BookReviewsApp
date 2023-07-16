@@ -37,7 +37,7 @@ final class BookCell: UITableViewCell {
 
 
         title.text = "name: " + (book.bookDetails.first?.title ?? "")
-        descriptionBook.text = book.bookDetails.first?.description
+        descriptionBook.text = book.bookDetails.first?.descriptionValue
         author.text = "author: " + (book.bookDetails.first?.author ?? "")
         publisher.text = "published by: " + (book.bookDetails.first?.publisher ?? "")
 

@@ -13,13 +13,14 @@ import SnapKit
 final class CategoryController: BaseViewController {
 
     // MARK: - Properties
+    
     let viewModel: CategoryViewModel?
     private let disposeBag = DisposeBag()
 
     // MARK: - Lifecycle
     init(viewModel: CategoryViewModel) {
         self.viewModel = viewModel
-        super.init(nibName: nil, bundle: nil)
+        super.init()
     }
 
     required init?(coder: NSCoder) {
@@ -29,6 +30,10 @@ final class CategoryController: BaseViewController {
     override func loadView() {
         super.loadView()
         view = CategoriesView()
+        
+        guard let viewModel = viewModel else { return }
+        AppLogger.log(level: .info, " internet connection isConnected ==>  \(isConnected)")
+        viewModel.input.connectedObserver.onNext(isConnected)
     }
 
     override func viewDidLoad() {
@@ -58,7 +63,7 @@ final class CategoryController: BaseViewController {
             .modelSelected(Category.self)
             .subscribe(onNext: { categoryObject in
 //                AppLogger.log(level: .debug, categoryObject.listName)
-                viewModel.input.categoryObjectObservr.onNext(categoryObject.listName ?? "")
+                viewModel.input.categoryObjectObserver.onNext(categoryObject.listName ?? "")
             }).disposed(by: disposeBag)
     }
 }

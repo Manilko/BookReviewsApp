@@ -7,6 +7,7 @@
 
 import RxSwift
 import RxCocoa
+import RealmSwift
 
 final class BookViewModel {
 
@@ -40,7 +41,7 @@ final class BookViewModel {
         Task {
             do {
                 let category = try await service.fetchBook(with: category)
-                tabelViewItemsSectioned.accept([SectionBookModel(hesder: "", items: category?.results ?? [])])
+                tabelViewItemsSectioned.accept([SectionBookModel(hesder: "", items: Array(category?.results ?? List<Book>()))])
                 AppLogger.log(level: .info, "downloaded: \(String(describing: category?.results.count)) category")
             } catch {
                 AppLogger.log(level: .error, error)
